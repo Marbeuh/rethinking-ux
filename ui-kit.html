@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+
+        <title>UI-KIT - Projet RUX - DWM HEAJ</title>
+
+        <!-- Méta Google-->
+        <meta name="title" content="Arnaud Marbehant - Projet RUX - DWM HEAJ" />
+        <meta name="description" content="Découvrez mon case study pour le projet RUX" />
+
+        <!-- Meta OpenGraph/Facebook -->
+        
+        <meta property="og:title" content="Arnaud Marbehant - Projet RUX - DWM HEAJ"/>
+        <meta property="og:description" content="Découvrez mon case study pour le projet RUX"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://arnaud-marbehant.be/projets/rethinking-ux/"/>
+        <meta property="og:image" content="http://arnaud-marbehant.be/assets/images/meta_rux.png"/>
+        
+
+        <!-- Meta Twitter -->
+        <meta name="twitter:url" content="https://arnaud-marbehant.be/projets/rethinking-ux/"/>
+        <meta name="twitter:creator" content="@Marbeuh17"/>
+        <meta name="twitter:title" content="Arnaud Marbehant - RUX"/>
+        <meta name="twitter:description" content="Découvrez mon case study pour le projet RUX"/>
+        <meta name="twitter:image" content="http://arnaud-marbehant.be/assets/images/meta_rux.png"/>
+        
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/app.js" defer></script>
+    
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="burgerMenu"><defs/><path fill="none" d="M0 0h24v24H0z"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="link nav__link" href="index.html">Accueil</a></li>
+                    <li class="nav__item nav__item--center">
+                        <button id="switch" class="btn btn--darkmode">
+                            <img class="darkmodeLogo" src="assets/images/picto_theme.svg" alt="bouton darkmode">
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            
+            
+        </header>
+        <main>
+            <h1 class="uikit--titlle"><span>T</span>itre 1</h1>
+            <h2>Titre 2</h2>
+            <h3 class="uikit">Titre 3</h3>
+            <p>Le paragraphe utilise la font "Assistant" en 16, 22 ou 24px en fonction de la taille de l'écran en regular 400. Un <span>span</span> est utilié pour mettre en évidence des mots clé</p>
+            <a>Voici un lien</a>
+            <a class="uikit--hover">Voici un lien en état d'hover</a>
+            <a class="uikit--visited">Voici un lien en état visité</a>
+            <p class="uikit--decal">Voici une autre moyen utilisé pour mettre en évidence</p>
+            <ul>
+                <li>Elément 1</li>
+                <li>Elément 2</li>
+                <li>Elément 3</li>
+             </ul>
+             <div class="card">
+                <div class="card__image-holder">
+                  <img class="card__image" src="http://arnaud-marbehant.be/assets/images/profil@2x.png" alt="wave" />
+                </div>
+                <div class="card-title">
+                  <p>
+                      <a href="">Exemple card</a>
+                  </p>
+                </div>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <small class="smallText">1 / 3</small>
+                    <img src="assets/images/User-journey_1.jpg" alt="User Journey 1" class="contentPicture">
+                    <small class="smallText">Exemple slider</small>
+                </div>
+              
+                <div class="mySlides fade">
+                    <small class="smallText">2 / 3</small>
+                    <img src="assets/images/User-journey_2.jpg" alt="User Journey 2" class="contentPicture">
+                    <small class="smallText">Exemple slider</small>
+                </div>
+              
+                <div class="mySlides fade">
+                    <small class="smallText">3 / 3</small>
+                    <img src="assets/images/User-journey_3.jpg" alt="User Journey 3" class="contentPicture">
+                    <small class="smallText">Exemple slider</small>
+                </div>
+              
+                <div class="arrow">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+              
+        </main>
+        <footer>
+            <hr>
+            <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="index.html">Case-study</a></li>
+                <li class="footer__item"><a class="footer__link" href="ui-kit.html">Ui-Kit</a></li>
+            </ul>
+            <div class="copyright">
+                <small>Arnaud Marbehant ©</small> 
+                <small id="date"></small>
+            </div>
+            
+            <a href="http://dwm.re/" target="_blank">
+                <svg class="dwm" xmlns="http://www.w3.org/2000/svg" width="41.176" height="14" viewBox="0 0 41.176 14">
+                    <g>
+                    <path class="logo_dwm" fill="rgb(0,0,0)" fill-rule="evenodd" d="M0 0h3.2448883c3.35678101 0 5.59461976 1.75 5.59461976 5.83337402 0 4.08325196-2.23783875 5.94995118-5.48272705 5.94995118H0V0zm9.51086426 0h2.6854248l.3356781 6.30004883V9.2166748h.1118927c.1118927-1.05004882.3356781-1.98339843.5594635-2.91662597l.7832489-3.26672363h1.6783905l.78324891 3.26672363c.2237854.93322754.4475708 1.86657715.5594635 2.91662597h.1118927c0-1.05004882 0-1.98339843.1118927-2.91662597L17.56713867 0h2.57351685l-1.45458985 11.7833252h-2.7973175l-.7832489-3.61669922c-.1118927-.69995118-.3356781-1.51660157-.3356781-2.2166748-.1118927.70007323-.2237854 1.51672362-.3356781 2.2166748l-.6713562 3.61669922h-2.6854248L9.51086425 0zm14.43415832 0h-2.7973175l.2237854 11.7833252h2.1259613V8.16662598c0-1.39990235-.2237854-4.19995118-.3356781-5.48327637l.7832489 3.15002441.8951416 2.79992676h1.2308197l.8951416-2.79992676 1.00703431-3.15002441c-.1118927 1.2833252-.3356781 4.19995117-.3356781 5.48327637v3.61669922h2.237854V0h-2.7973175l-1.118927 4.19995117-.4475708 1.63342285h-.1118927l-.3356781-1.63342285L23.94502258 0zM3.13299561 9.6833496c1.7902832 0 3.0211029-1.05004882 3.0211029-3.85009765 0-2.79992675-1.2308197-3.73327636-3.0211029-3.73327636h-.4475708V9.6833496h.4475708z"/>
+                    <path fill="rgb(245,227,56)" fill-rule="evenodd" d="M33.12021231 14h8.05626786v-2.21666776h-8.05626786V14z"/>
+                    </g>
+                </svg>
+            </a>
+        </footer>
+    </body>
+</html>

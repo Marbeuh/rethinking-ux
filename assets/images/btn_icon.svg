@@ -1,0 +1,6 @@
+<svg class=nav-button__icon width="38" height="38" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+                        <path class="h t" d="M10.5 10l17 0"/>
+                        <path d="M10.5 19l17 0"/>
+                        <path class="h b" d="M10.5 28l17 0"/>
+                        <path class="x" d="M19 10.5l0 17"/>
+                    </svg>
